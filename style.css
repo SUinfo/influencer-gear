@@ -1,0 +1,244 @@
+/* ==> Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Yeseva+One&display=swap");
+
+/* .....fonts import complate...... */
+
+/* CSS Common */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", "Inter";
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+/* End CSS Common */
+
+/* Logo & menu  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+}
+nav h1 {
+  font-weight: 700px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation li {
+  margin: 10px;
+}
+
+/* Banner Left & Right */
+
+.banner {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  /* border: 1px gray solid; */
+}
+
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner-left h1 {
+  font-family: Poppins;
+  font-size: 50px;
+  color: #3a3a3a;
+}
+
+.banner-left p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+  padding-bottom: 10px;
+}
+
+.banner-left a {
+  background: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 41px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.banner-right img {
+  width: 100%;
+  align-content: flex-end;
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+
+/* logo */
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.logo img {
+  padding: 10px 30px;
+  align-content: center;
+  align-items: center;
+}
+
+/* End Header Section  */
+
+/* Product section  */
+
+/* Popular Collection */
+
+.product h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  color: #3a3a3a;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+
+.shop-item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.item {
+  box-shadow: 1px 1px 10px gray;
+  padding: 17px 14px 15px 1px;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  margin-bottom: 30px;
+}
+
+.item img {
+  margin: 10px;
+}
+
+.item h1 {
+  text-align: left;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#see-more {
+  color: #e02c6d;
+  margin-left: 1000px;
+  cursor: pointer;
+}
+
+/* End Popular Collection */
+
+/* Featured Section  */
+.featured {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.featured-product {
+  display: flex;
+  align-items: center;
+  grid-gap: 50px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 20.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.featured-product h1 {
+  font-size: 35px;
+  padding: 0px 0px 10px;
+}
+.featured-product p {
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-bottom: 16px;
+}
+.featured-product a {
+  background: #e02c6d;
+  padding: 10px 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  background-color: #0a0826;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Font-Awesome icon */
+.top-menu {
+  color: black;
+  font-size: 25px;
+  margin: 0;
+}
+
+.star-color {
+  color: #fb8200;
+  font-size: 14px;
+  margin: 0;
+}
+
+i {
+  font-size: 25px;
+  margin: 10px 8px 10px;
+  color: #ffffff;
+}
+
+/* The End  */
+
+/* for Responsive design */
